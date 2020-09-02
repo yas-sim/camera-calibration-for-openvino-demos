@@ -23,7 +23,7 @@ def main(args):
         sys.exit(1)
 
     print('*** CAMERA CALIBRATION TOOL for OPENCV ***\n')
-    print('Produce {}x{} chess board pattern to the webCam'.format(gx, gy))
+    print('Present {}x{} chess board pattern to the webCam'.format(gx, gy))
     print('The detected corners will be marked when the program detects the corners')
     print('Calibration may require >10 data to generate accurate camera matrix and distortion data')
     print('Keys:')
